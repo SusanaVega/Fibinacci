@@ -12,7 +12,7 @@ public class FibonacciUI {
 	 */
 	public static void main(String[] args)
 	{
-		long input = 0, result
+		long input = 0, result;
 		boolean keepRunning = true;
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		while (keepRunning == true) {
@@ -39,7 +39,7 @@ public class FibonacciUI {
 				System.out.println("Fibonacci result is: " + result);
 			}
 		}
-		System.out.println("Exiting")
+		System.out.println("Exiting");
 	}
 
 }
