@@ -6,7 +6,7 @@ public class Fibonacci
 		if (i < 2)
 			return i;
 
-		long a = 0;
+		//long a = 0;
 		long b = 1;
 		long fib = 1;
 
